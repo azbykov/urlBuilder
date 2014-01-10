@@ -40,6 +40,3 @@ urlB.getController();
 // yandsearch
 ```
 
-```javascript
-
-```
