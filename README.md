@@ -17,7 +17,6 @@ console.log(urlB.getUrl()); // Get url
 
 
 console.log(urlB.getParams()) // Get params
-
 // {
 //    text: 'urlBuilder',
 //    lr: 2
@@ -25,17 +24,14 @@ console.log(urlB.getParams()) // Get params
 
 
 console.log(urlB.getParamsCount()) // Get params count
-
 // 2
 
 
 console.log(urlB.getDomain()) // Get domain
-
 // yandex.ru
 
 
 console.log(urlB.getController()) // Get controller
-
 // yandsearch
 ```
 
