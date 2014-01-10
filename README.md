@@ -11,8 +11,10 @@ urlBuilder.js
 
 ```javascript
 var urlB = new urlBuilder('http://www.yandex.ru/yandsearch?text=azbykov&lr=2');
-urlB.setParams({'text': 'urlBuilder'}); // Set new params
 
+
+// Set new params
+urlB.setParams({'text': 'urlBuilder'}); 
 
 // Get url
 urlB.getUrl(); 
