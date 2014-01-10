@@ -12,22 +12,29 @@ urlBuilder.js
 ```javascript
 var urlB = new urlBuilder('http://www.yandex.ru/yandsearch?text=azbykov&lr=2');
 urlB.setParams({'text': 'urlBuilder'}); // Set new params
-urlB.getUrl(); // Get url
+
+
+// Get url
+urlB.getUrl(); 
 // http://www.yandex.ru/yandsearch?text=urlBuilder&lr=2
 
-urlB.getParams(); // Get params
+// Get params
+urlB.getParams(); 
 // {
 //    text: 'urlBuilder',
 //    lr: 2
 // }
 
-urlB.getParamsCount(); // Get params count
+// Get params count
+urlB.getParamsCount(); 
 // 2
 
-urlB.getDomain(); // Get domain
+// Get domain
+urlB.getDomain(); 
 // yandex.ru
 
-urlB.getController(); // Get controller
+// Get controller
+urlB.getController(); 
 // yandsearch
 ```
 
